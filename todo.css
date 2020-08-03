@@ -1,0 +1,121 @@
+    body {
+        background-image: linear-gradient(#00d4ff, #020024);
+    }
+    
+    .d1 {
+        background-color: ivory;
+        width: 400px;
+        height: 600px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        margin-left: 33%;
+        margin-top: 20px;
+        position: relative;
+    }
+    
+    .image {
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-image: url(laptop_new.jpg);
+        background-repeat: no-repeat;
+        background-size: 400px 200px;
+        filter: brightness(85%);
+    }
+    
+    .DATE {
+        margin-top: 28.5%;
+        margin-left: 120px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+    
+    #refresh {
+        color: white;
+    }
+    
+    #refresh:hover {
+        color: #7CFC00;
+    }
+    
+    .work {
+        border-top: 0.1px solid silver;
+        width: 100%;
+        height: 55px;
+        margin-top: 87%;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    
+    .data-input {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    #text {
+        border-top: 2px solid #ADD8E6;
+        border-bottom: 2px solid #ADD8E6;
+        border-left: 1px solid silver;
+        border-right: 1px solid silver;
+        width: 90%;
+        height: 35px;
+        margin-left: 12px;
+        margin-top: 3.5px;
+    }
+    
+    #add {
+        margin-left: 2px;
+        margin-top: 8px;
+    }
+    
+    .data-input {
+        width: 400px;
+        display: flexbox;
+        max-height: 350px;
+        flex-direction: column;
+        flex-flow: column;
+        overflow-y: auto;
+        position: absolute;
+    }
+    
+    .data-input div {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #chk {
+        margin-left: 2px;
+        margin-top: 13.5px;
+        width: 17px;
+        height: 17px;
+    }
+    
+    #delete {
+        margin-top: 15px;
+    }
+    
+    .fdiv {
+        width: 85%;
+        height: 40px;
+        margin-left: 12px;
+        margin-top: 7px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        border-bottom: 0.01px solid silver;
+        overflow-x: auto;
+    }
+    
+    #delete:hover {
+        color: red;
+    }
+    
+    #d {
+        text-align: right;
+    }
+    
+    #add:hover {
+        color: #006400;
+    }
